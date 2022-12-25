@@ -1,0 +1,44 @@
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-container {
+  height: 90%;
+  width: 80%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-head {
+  color: #a35200;
+  font-size: 50px;
+}
+.coin-toss {
+  font-size: 30px;
+}
+.coin-head {
+  height: 40vh;
+}
+.toss {
+  background-color: #f9d423;
+  border-width: 0px;
+  border-radius: 4px;
+  color: #a35200;
+  height: 5vh;
+  width: 120px;
+}
+.counting-container {
+  display: flex;
+  justify-content: space-between;
+}
+.count {
+  margin: 20px;
+}
